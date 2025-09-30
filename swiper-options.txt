@@ -1,0 +1,44 @@
+const swiperOptions = {
+    modules: [Autoplay, Pagination, Navigation],
+    slidesPerView: 1,
+    spaceBetween: 30,
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+    },
+    loop: true,
+
+    // Pagination
+    "pagination": {
+        "el": "#solution-detail-highlighs-box-pagination",
+        "type": "progressbar",
+        "clickable": true
+    },
+
+    breakpoints: {
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 30,
+        },
+        575: {
+            slidesPerView: 1,
+            spaceBetween: 30,
+        },
+        767: {
+            slidesPerView: 1,
+            spaceBetween: 30,
+        },
+        991: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+        },
+        1199: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+        },
+        1350: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+        },
+    }
+}

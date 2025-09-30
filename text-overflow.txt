@@ -1,0 +1,10 @@
+.text {
+    font-family: cursive;
+    font-size: 1em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-transform: capitalize;
+}
